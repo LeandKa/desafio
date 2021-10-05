@@ -6,6 +6,10 @@ export const Container = styled.ScrollView`
   height: auto;
 `;
 
+export const LoadingView = styled.View`
+  margin-top: 250px;
+`;
+
 export const Content = styled.ImageBackground`
   width: 400px;
   height: 400px;
@@ -54,14 +58,12 @@ export const Name = styled.Text`
   flex: 1;
   flex-wrap: wrap
   font-size: 17px;
-  margin: 10px;
+  margin: 20px;
 `;
-export const CreatorView = styled.View`
-  flex: 1;
-`;
-
 export const Creator = styled.Text`
   color: white;
+  flex: 1;
   font-size: 17px;
+  margin-top: 20px;
   text-align: center;
 `;
