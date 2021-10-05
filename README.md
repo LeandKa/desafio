@@ -6,7 +6,10 @@
 </h1>
 
 <ul>
-    <li><a href="https://pt-br.reactjs.org/">ReactJs</a></li>
+    <li><a href="https://reactnative.dev/">ReactNative</a></li>
+</ul>
+<ul>
+    <li><a href="https://nodejs.org/en/">Nodejs</a></li>
 </ul>
 
 <p>Aplicação simples um catalogo de filmes,com funções de login e logout,ver todos os shows, por tag, por categoria, adicionar e remover favoritos como também retorno de todos os favoritos</p>
@@ -52,12 +55,9 @@ ACCESS_TOKEN_SECRET="segredo do jwt token"
 
 Depois so usar yarn e por fim yarn start
 
-```
+#PARTE MOBILE
 
-<h1>Parte Mobile</h1>
-```
 Já na parte Mobile vá até a pasta services no arquivo api.js e substitua o Base_url pelo ip do seu servidor 
 
 Feito isso yarn para instalar e npx react-native run-android para rodar a aplicação no emulador 
-
 ```
